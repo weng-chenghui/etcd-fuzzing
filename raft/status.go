@@ -17,8 +17,8 @@ package raft
 import (
 	"fmt"
 
-	pb "github.com/ds-testing-user/etcd-fuzzing/raft/raftpb"
-	"github.com/ds-testing-user/etcd-fuzzing/raft/tracker"
+	pb "github.com/weng-chenghui/etcd-fuzzing/raft/raftpb"
+	"github.com/weng-chenghui/etcd-fuzzing/raft/tracker"
 )
 
 // Status contains information about this Raft peer and its view of the system.

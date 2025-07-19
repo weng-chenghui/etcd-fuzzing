@@ -14,7 +14,7 @@
 
 package raft
 
-import pb "github.com/ds-testing-user/etcd-fuzzing/raft/raftpb"
+import pb "github.com/weng-chenghui/etcd-fuzzing/raft/raftpb"
 
 // ReadState provides state for read only query.
 // It's caller's responsibility to call ReadIndex first before getting

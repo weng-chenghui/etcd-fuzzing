@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ds-testing-user/etcd-fuzzing/raft/quorum"
-	pb "github.com/ds-testing-user/etcd-fuzzing/raft/raftpb"
-	"github.com/ds-testing-user/etcd-fuzzing/raft/tracker"
+	"github.com/weng-chenghui/etcd-fuzzing/raft/quorum"
+	pb "github.com/weng-chenghui/etcd-fuzzing/raft/raftpb"
+	"github.com/weng-chenghui/etcd-fuzzing/raft/tracker"
 )
 
 // Changer facilitates configuration changes. It exposes methods to handle

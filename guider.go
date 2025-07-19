@@ -256,7 +256,7 @@ var _ Guider = &LineCoverageGuider{}
 func (l *LineCoverageGuider) Check(trace *List[*SchedulingChoice], events *List[*Event]) (int, float64) {
 	l.TLCStateGuider.Check(trace, events)
 	cov, err := gocov.GetCoverage(gocov.CoverageConfig{
-		MatchPkgs: []string{"github.com/ds-testing-user/etcd-fuzzing/raft"},
+		MatchPkgs: []string{"github.com/weng-chenghui/etcd-fuzzing/raft"},
 	})
 	if err != nil {
 		return 0, 0

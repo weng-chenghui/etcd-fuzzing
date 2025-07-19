@@ -19,8 +19,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ds-testing-user/etcd-fuzzing/raft/quorum"
-	pb "github.com/ds-testing-user/etcd-fuzzing/raft/raftpb"
+	"github.com/weng-chenghui/etcd-fuzzing/raft/quorum"
+	pb "github.com/weng-chenghui/etcd-fuzzing/raft/raftpb"
 )
 
 // Config reflects the configuration tracked in a ProgressTracker.

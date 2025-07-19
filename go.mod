@@ -1,4 +1,4 @@
-module github.com/ds-testing-user/raft-fuzzing
+module github.com/weng-chenghui/raft-fuzzing
 
 go 1.18
 

@@ -18,7 +18,7 @@ import (
 	"context"
 	"errors"
 
-	pb "github.com/ds-testing-user/etcd-fuzzing/raft/raftpb"
+	pb "github.com/weng-chenghui/etcd-fuzzing/raft/raftpb"
 )
 
 type SnapshotStatus int

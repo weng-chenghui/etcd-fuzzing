@@ -5,8 +5,8 @@ import (
 	"log"
 	"strconv"
 
-	"github.com/ds-testing-user/etcd-fuzzing/raft"
-	pb "github.com/ds-testing-user/etcd-fuzzing/raft/raftpb"
+	"github.com/weng-chenghui/etcd-fuzzing/raft"
+	pb "github.com/weng-chenghui/etcd-fuzzing/raft/raftpb"
 )
 
 // type RaftRand struct {

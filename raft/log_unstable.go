@@ -14,7 +14,7 @@
 
 package raft
 
-import pb "github.com/ds-testing-user/etcd-fuzzing/raft/raftpb"
+import pb "github.com/weng-chenghui/etcd-fuzzing/raft/raftpb"
 
 // unstable contains "unstable" log entries and snapshot state that has
 // not yet been written to Storage. The type serves two roles. First, it

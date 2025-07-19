@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	pb "github.com/ds-testing-user/etcd-fuzzing/raft/raftpb"
+	pb "github.com/weng-chenghui/etcd-fuzzing/raft/raftpb"
 )
 
 type Fuzzer struct {

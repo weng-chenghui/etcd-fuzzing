@@ -17,8 +17,8 @@ package raft
 import (
 	"errors"
 
-	pb "github.com/ds-testing-user/etcd-fuzzing/raft/raftpb"
-	"github.com/ds-testing-user/etcd-fuzzing/raft/tracker"
+	pb "github.com/weng-chenghui/etcd-fuzzing/raft/raftpb"
+	"github.com/weng-chenghui/etcd-fuzzing/raft/tracker"
 )
 
 // ErrStepLocalMsg is returned when try to step a local raft message
